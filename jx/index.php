@@ -12,13 +12,13 @@
 </head>
 <body>
 <div class="container">
-<h1 style="text-align:center;color:red;">呆呆解析-简版第二版</h1>
+<h1 style="text-align:center;color:red;">阿睿看看</h1>
 
 <?php
 error_reporting(0);
 include('t.php');
 include('1.php');
-echo "<a href='http://www.daidaijx.cn/jiaocheng.html'>URL解析使用图文指南</a><hr/>";
+echo "<a href='http://baidu.com'>不会吗</a><hr/>";
 if($_GET['word']==""){
 $_GET['word'] = '最新';
 }
@@ -83,31 +83,10 @@ echo "<li class='page-item'><a class='page-link' href='index.php?word=$_GET[word
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
 本站所有资源均收集于网络，不承担任何由于内容的合法性及健康性所引起的争议和法律责任。如若冒犯你的相关权益，请联系我们，我们将在72小时内进行删除。<br/>
-Email:609835464@qq.com<br/>
-网站所有者:呆呆解析</div>
+Email:openstudio@qq.com<br/>
+网站所有者:阿睿看看</div>
 <script src="https://s13.cnzz.com/z_stat.php?id=1273225381&web_id=1273225381" language="JavaScript"></script>
 </div>
 
-<!--小QQ开始-->
-    <style>
-	 .qqanimate{display:block;position:fixed;left:10px;bottom:50px;z-index:9999999;}
-	 </style>
-	 <div class="indexpingbi" style="display: none; z-index: 999999; width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.7; background-position: initial initial; background-repeat: initial initial;"></div>
-	 <div class="indextanchu" style="cursor: pointer; display: none; position: fixed; left: 80px; bottom: 20px; width: 560px; height: 250px; z-index: 9999999; background-image: background-position: initial initial; background-repeat: no-repeat no-repeat;"></div>
-	 <a href="https://temai.m.taobao.com/search.htm?pid=mm_121445574_38318088_155830071" target="_blank" class="qqanimate">
-		<img src="http://www.daidaijx.cn/images/跳动QQ.gif" width="172px" height="120px">
-	 </a>
-	 <script>
-                if(getCookie("m_qq1")!='true'){
-						$(".indexpingbi").css("display","block");
-						$(".indextanchu").css("display","block");
-					}
-            	$(".indextanchu").live('click',function(e) {
-                    $(".indexpingbi").css("display","none");
-					$(".indextanchu").css("display","none");
-					setCookie1("m_qq1","true","d365");
-                });
-     </script>
-<!--小QQ结束-->
 </body>
 </html>
