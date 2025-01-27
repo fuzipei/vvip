@@ -96,10 +96,23 @@
             background-color: #218838;
         }
     </style>
+    <script>
+        function goBack() {
+            window.history.back();
+            // 如果history.back()失效，则尝试使用替代方案
+            setTimeout(function() {
+                if (document.referrer) {
+                    window.location.href = document.referrer;
+                } else {
+                    window.close(); // 如果没有来源页面，则关闭当前页面
+                }
+            }, 100);
+        }
+    </script>
 </head>
 
 <body>
-    <a href="javascript:history.back()" class="back-button">返回上一页</a>
+    <a onclick="goBack()" class="back-button" style="cursor: pointer;">返回上一页</a>
     <h1>厂长看看 - 资源使用教程</h1>
     <h2>1. 首先打开你需要看的视频链接</h2>
     <p><strong>这里在网站里面有一些快捷跳转入口</strong></p>
