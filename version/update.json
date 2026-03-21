@@ -1,0 +1,8 @@
+{
+  "version": "2.0.321",
+  "versionName": "V2.0.321 beta",
+  "releaseDate": "2026-03-21",
+  "downloadUrl": "https://dl.7758527.xyz/czkk/czkk_Setup_v2.0.321.exe",
+  "changelog": "1.【新增】自定义选择平台是否解析\n2.【新增】缓存选项细分化以及自动清理\n3.【新增】侧边栏可自定义放大缩小隐藏\n4.【新增】设置直播源默认启动\n5.【修复】右键新窗口未记录cookies的bug\n6.【修复】内存长时间未回收导致溢出的bug\n7.【修复】设置未及时保存问题\n8.【修复】其他一些小的问题
+  "forceUpdate": false
+}
