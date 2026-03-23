@@ -1,8 +1,8 @@
 {
-  "version": "2.0.322",
-  "versionName": "V2.0.322 beta",
-  "releaseDate": "2026-03-22",
-  "downloadUrl": "https://dl.7758527.xyz/czkk/czkk_Setup_v2.0.322.exe",
-  "changelog": "1.【修复】默认启动平台缺少抖音的bug\n2.【修复】抖音偶现加载失败的bug\n3.【修复】其他一些问题",
+  "version": "2.0.323",
+  "versionName": "V2.0.323 beta",
+  "releaseDate": "2026-03-23",
+  "downloadUrl": "https://dl.7758527.xyz/czkk/czkk_Setup_v2.0.323.exe",
+  "changelog": "1.【新增】自动去广告(betaV1.0)\n2.【新增】悬浮光标提示\n3.【修复】其他一些问题",
   "forceUpdate": false
 }
