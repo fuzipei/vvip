@@ -1,8 +1,10 @@
 {
-  "version": "2.0.323",
-  "versionName": "V2.0.323 beta",
-  "releaseDate": "2026-03-23",
-  "downloadUrl": "https://dl.7758527.xyz/czkk/czkk_Setup_v2.0.323.exe",
-  "changelog": "1.【新增】自动去广告(betaV1.0)\n2.【新增】悬浮光标提示\n3.【修复】其他一些问题",
-  "forceUpdate": false
+    "version":  "2.0.325",
+    "versionName":  "V2.0.325",
+    "releaseDate":  "2026-03-25",
+    "changelog":  "新版更新功能测试，点一下左下角忽略版本即可",
+    "forceUpdate":  false,
+    "packageUrl":  "https://dl.7758527.xyz/czkk/2.0.325/package.zip",
+    "packageSha256":  "7fe3a62d889ff0ac65e383ee4e4257388d683287b849b52c7efe49dbd2374636",
+    "manifestUrl":  "https://dl.7758527.xyz/czkk/2.0.325/manifest.json"
 }
